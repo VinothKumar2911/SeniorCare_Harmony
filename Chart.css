@@ -1,0 +1,35 @@
+
+
+
+   .chart-flex-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    zoom: 0.8;
+  }
+  
+  .chart-container {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    background-color: #fff;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .chart-container:hover {
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .bar-chart {
+    border-color: rgb(2, 41, 41);
+  }
+  
+  .pie-chart {
+    border-color: rgb(2, 41, 41);
+  }
+  
+  .line-chart {
+    border-color: rgb(2, 41, 41);
+  }
+  
